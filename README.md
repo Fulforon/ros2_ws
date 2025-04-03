@@ -2,7 +2,7 @@
 
 $ docker run -it --rm --privileged --net=host  --env=DISPLAY  --env=QT_X11_NO_MITSHM=1  -v /tmp/.X11-unix:/tmp/.X11-unix  -v /home/autolab/ros2_ws:/home/student/ros2_ws ros2-turtlebot3:v5.0
 
-** -v /home/autolab/ros2_ws:/home/student/ros2_ws this part of the command will creates a link with your drecotry in the host machine and mirror it into the docker.
+
 ============================================
 -- How to run another terminal:
 First run "docker ps" to find out what is the docker_name running, it will shows you similar to this(if not it means that you dont have runnign docker):
