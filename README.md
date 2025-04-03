@@ -1,8 +1,5 @@
 -- How to run the docker:
-
 $ docker run -it --rm --privileged --net=host  --env=DISPLAY  --env=QT_X11_NO_MITSHM=1  -v /tmp/.X11-unix:/tmp/.X11-unix  -v /home/autolab/ros2_ws:/home/student/ros2_ws ros2-turtlebot3:v5.0
-
-
 ============================================
 -- How to run another terminal:
 First run "docker ps" to find out what is the docker_name running, it will shows you similar to this(if not it means that you dont have runnign docker):
@@ -16,9 +13,9 @@ $ docker exec -it <Your_Running_Docker_Name> bash
 
 ============================================
 --building and sourcing the docker
-cd ~/ros2_ws
-colcon build --symlink-install
-source ~/ros2_ws/install/setup.bash 
+$ cd ~/ros2_ws
+$ colcon build --symlink-install
+$ source ~/ros2_ws/install/setup.bash 
 
 --run the mapping node
-ros2 launch my_robot_controller start_mapping.launch.py
+$ ros2 launch my_robot_controller start_mapping.launch.py
