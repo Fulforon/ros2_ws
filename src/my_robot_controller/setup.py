@@ -30,7 +30,8 @@ setup(
             'pose_subscriber = my_robot_controller.pose_subscriber:main',
             'turtle_controller = my_robot_controller.turtle_controller:main',
             'mapping = my_robot_controller.mapping:main',
-            'mapping_chatgpt = my_robot_controller.mapping_chatgpt:main'
+            'mapping_chatgpt = my_robot_controller.mapping_chatgpt:main',
+            'navigation = my_robot_controller.navigation:main'
         ],
     },
 )
