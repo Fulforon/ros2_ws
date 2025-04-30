@@ -31,6 +31,7 @@ setup(
             'turtle_controller = my_robot_controller.turtle_controller:main',
             'mapping = my_robot_controller.mapping:main',
             'mapping_chatgpt = my_robot_controller.mapping_chatgpt:main',
+            'aw_nav = my_robot_controller.aw_navigation:main',
             'navigation = my_robot_controller.navigation:main'
         ],
     },
