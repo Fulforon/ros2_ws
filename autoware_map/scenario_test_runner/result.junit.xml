@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<testsuites name="/ros2_ws/autoware_map/scenario_test_runner" failures="0" errors="0" tests="3">
+  <testsuite name="sample" failures="0" errors="0" tests="3">
+    <testcase name="sample_2" />
+    <testcase name="sample_1" />
+    <testcase name="sample_0" />
+  </testsuite>
+</testsuites>

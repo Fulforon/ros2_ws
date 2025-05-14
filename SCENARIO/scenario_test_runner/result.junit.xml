@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<testsuites name="/autoware_map/scenario_test_runner" failures="1" errors="0" tests="1">
+  <testsuite name="t4v2" failures="1" errors="0" tests="1">
+    <testcase name="t4v2">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+  </testsuite>
+</testsuites>
